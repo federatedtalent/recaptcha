@@ -16,8 +16,6 @@ GEM
     addressable (2.3.8)
     ast (2.3.0)
     bump (0.5.3)
-    byebug (8.2.0)
-    coderay (1.1.0)
     crack (0.4.2)
       safe_yaml (~> 1.0.0)
     hashdiff (0.2.3)
@@ -26,20 +24,12 @@ GEM
     maxitest (1.5.4)
       minitest (>= 5.0.0, < 5.9.0)
     metaclass (0.0.4)
-    method_source (0.8.2)
     minitest (5.8.3)
     mocha (1.1.0)
       metaclass (~> 0.0.1)
     parser (2.3.1.2)
       ast (~> 2.2)
     powerpack (0.1.1)
-    pry (0.10.3)
-      coderay (~> 1.1.0)
-      method_source (~> 0.8.1)
-      slop (~> 3.4)
-    pry-byebug (3.3.0)
-      byebug (~> 8.0)
-      pry (~> 0.10)
     rainbow (2.1.0)
     rake (10.4.2)
     rubocop (0.40.0)
@@ -50,7 +40,6 @@ GEM
       unicode-display_width (~> 1.0, >= 1.0.1)
     ruby-progressbar (1.8.1)
     safe_yaml (1.0.4)
-    slop (3.6.0)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -69,11 +58,10 @@ DEPENDENCIES
   i18n
   maxitest
   mocha
-  pry-byebug
   rake
   recaptcha!
   rubocop
   webmock
 
 BUNDLED WITH
-   1.13.6
+   1.14.6

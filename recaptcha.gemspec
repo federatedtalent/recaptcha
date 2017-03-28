@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.homepage    = "http://github.com/ambethia/recaptcha"
   s.summary     = s.description = "Helpers for the reCAPTCHA API"
   s.license     = "MIT"
-  s.required_ruby_version = '>= 2.0.0'
+  s.required_ruby_version = '>= 1.9.0'
 
   s.files       = `git ls-files lib README.md CHANGELOG.md LICENSE`.split("\n")
 
@@ -18,7 +18,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "activesupport"
   s.add_development_dependency "i18n"
   s.add_development_dependency "maxitest"
-  s.add_development_dependency "pry-byebug"
   s.add_development_dependency "bump"
   s.add_development_dependency "webmock"
   s.add_development_dependency "rubocop"
